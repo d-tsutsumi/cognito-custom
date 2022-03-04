@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+/* fontawesome */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+.wapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: inline-block;
+}
+
+
+#header {
+  background-color: whitesmoke;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #444;
+  margin: 0 10px;
+  font-size: 0.5rem;
+}
+
+.login-nav a {
+  text-decoration: none;
+  color: #444;
+  font-size: 0.5rem;
+}
+
+.login-nav a:hover {
+  color: darkcyan;
+
+}
+
+.main-nav a:hover {
+  color: darkcyan;
+}
+
+.login-nav {
+  float: right;
+  line-height: inherit;
+  margin-right: 10px;
+}
+
+.wapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
+
+#header {
+    background-color: whitesmoke;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 10px;
+    font-size: 0.5rem;
+}
+
+.login-nav a {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.5rem;
+}
+
+.login-nav a:hover {
+    color: darkcyan;
+
+}
+
+.main-nav a:hover {
+    color: darkcyan;
+}
+
+.login-nav {
+    float: right;
+    line-height: inherit;
+    margin-right: 10px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+
+}
+
+#login {
+    margin-top: 20px;
+}
+.login label {
+    font-size: 0.5rem;
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form-flex:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.form-wrapper {
+    background: #fafafa;
+    margin: 10em auto;
+    padding: 0 1em;
+    max-width: 370px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em 0;
+  }
+  
+  form {
+    padding: 0 1.5em;
+  }
+  
+  .form-item {
+    margin-bottom: 0.75em;
+    width: 100%;
+  }
+  
+  .form-item input {
+    background: #fafafa;
+    border: none;
+    border-bottom: 2px solid #e9e9e9;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    height: 50px;
+    transition: border-color 0.3s;
+    width: 100%;
+  }
+  
+  .form-item input:focus {
+    border-bottom: 2px solid #c0c0c0;
+    outline: none;
+  }
+  
+  .button-panel {
+    margin: 2em 0 0;
+    width: 100%;
+  }
+  
+  .button-panel .button {
+    background: #7c9fff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background: #82bafa;
+  }
+  
+  .form-footer {
+    font-size: 1em;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .form-footer p {
+      margin: 0;
+  }
+  
+  .form-footer a, span {
+    font-size: 0.5rem;
+    color: #8c8c8c;
+    text-decoration: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-footer a, span:hover {
+    border-bottom: 1px dotted #8c8c8c;
+  }
